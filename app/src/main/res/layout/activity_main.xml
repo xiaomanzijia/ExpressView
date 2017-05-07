@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:express="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.licheng.android.expressview.MainActivity">
+
+
+    <com.licheng.android.expressview.expressview.ExpressView
+        android:id="@+id/expressview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        express:circleToTextMargin="12dp"
+        express:expressCircleOuterRadius="8dp"
+        express:expressCircleRadius="6dp"
+        express:expressTextMargin="12dp"
+        express:expressTextSize="14sp"
+        express:expressTextVecPadding="5dp"
+        express:expressTimeTextSize="10sp"
+        express:firstExpressCircleMarginLeft="16dp"
+        express:firstExpressCircleMarginTop="16dp"
+        express:isTimeButtonVisible="false" />
+
+
+</RelativeLayout>

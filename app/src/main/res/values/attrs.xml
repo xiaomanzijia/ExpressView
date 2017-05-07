@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpressView">
+        <attr name="firstExpressCircleMarginLeft" format="dimension">16</attr>
+        <attr name="firstExpressCircleMarginTop" format="dimension">16</attr>
+        <attr name="expressCircleRadius" format="dimension">6</attr>
+        <attr name="expressCircleOuterRadius" format="dimension">8</attr>
+        <attr name="circleToTextMargin" format="dimension">12</attr>
+        <attr name="expressTextMargin" format="dimension">8</attr>
+        <attr name="expressTextVecPadding" format="dimension">5</attr>
+        <attr name="expressTextSize" format="dimension">18</attr>
+        <attr name="expressTimeTextSize" format="dimension">14</attr>
+        <attr name="isTimeButtonVisible" format="boolean">false</attr>
+        <!-- Horizontal ProgressBar style. This is a horizontal progress bar. -->
+        <attr name="progressBarStyleHorizontal" format="reference" ></attr>
+    </declare-styleable>
+</resources>
