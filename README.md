@@ -6,13 +6,13 @@
 一款简单的物流状态进度展示自定义View，仅供参考学习
 
 ## **效果图**
-![image](https://github.com/xiaomanzijia/Expressview/screen/express.gif)
+![image](https://github.com/xiaomanzijia/ExpressView/blob/master/screen/express.gif)
 
 ## **使用方法**
 
 **布局文件**
 ```java
-ExpressView
+<ExpressView
         android:id="@+id/expressview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -29,7 +29,9 @@ ExpressView
 ```
 
 **控件属性介绍**
->>firstExpressCircleMarginLeft 第一个物流状态点距离父控件坐边的间距
+
+```java
+firstExpressCircleMarginLeft 第一个物流状态点距离父控件坐边的间距
 firstExpressCircleMarginTop 第一个物流状态点距离父控件上边的间距
 expressCircleRadius 物流状态点内圈半径
 expressCircleOuterRadius 物流状态点外圈半径
@@ -39,6 +41,7 @@ expressTextVecPadding 每个物流信息竖直方向的间距
 expressTextSize 文字大小
 expressTimeTextSize 时间文字大小
 isTimeButtonVisible 是否显示时间和文字按钮
+```
 
 **客户端**
 ```java
@@ -111,9 +114,13 @@ isTimeButtonVisible 是否显示时间和文字按钮
 ```
 
 ##待完善
->>1、处理滑动冲突
+
+```java
+1、处理滑动冲突
 2、处理滑动到顶部和到底部停止滑动的逻辑
 3、实现弹性滑动的效果
+```
+
 
 ##博客文章介绍
 [http://www.jianshu.com/p/2d87f62d5d27](http://www.jianshu.com/p/2d87f62d5d27)
