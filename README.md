@@ -1,4 +1,4 @@
-#物流状态控件
+# 物流状态控件
 
 ------
 
@@ -113,7 +113,7 @@ isTimeButtonVisible 是否显示时间和文字按钮
         });
 ```
 
-##待完善
+## 待完善
 
 ```java
 1、处理滑动冲突
@@ -122,13 +122,13 @@ isTimeButtonVisible 是否显示时间和文字按钮
 ```
 
 
-##博客文章介绍
+## 博客文章介绍
 [http://www.jianshu.com/p/2d87f62d5d27](http://www.jianshu.com/p/2d87f62d5d27)
 
 
 ## License
 
-    Copyright 2015 Cundong
+    Copyright 2017 LiCheng
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
