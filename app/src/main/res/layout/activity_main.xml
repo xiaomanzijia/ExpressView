@@ -21,7 +21,7 @@
         express:expressTimeTextSize="10sp"
         express:firstExpressCircleMarginLeft="16dp"
         express:firstExpressCircleMarginTop="16dp"
-        express:isTimeButtonVisible="false" />
+        express:isTimeButtonVisible="true" />
 
 
 </RelativeLayout>
